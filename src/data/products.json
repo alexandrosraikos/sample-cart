@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "slug": "rainbow-unicorn-slippers",
+        "name": "Rainbow Unicorn Slippers",
+        "price": "15.99",
+        "category": "footwear",
+        "description": "Soft and cuddly slippers to keep your feet warm and enchanted."
+    },
+    {
+        "id": 2,
+        "slug": "self-stirring-coffee-mug",
+        "name": "Self-Stirring Coffee Mug",
+        "price": "12.49",
+        "category": "kitchen",
+        "description": "Enjoy your favorite beverage without the hassle of stirring."
+    },
+    {
+        "id": 3,
+        "slug": "reusable-eco-friendly-straws",
+        "name": "Reusable Eco-Friendly Straws",
+        "price": "9.99",
+        "category": "kitchen",
+        "description": "Stylish, sustainable straws for eco-conscious drinkers."
+    },
+    {
+        "id": 4,
+        "slug": "glow-in-the-dark-dinosaur-stickers",
+        "name": "Glow-In-The-Dark Dinosaur Stickers",
+        "price": "7.99",
+        "category": "toys",
+        "description": "Make your room a jurassic wonderland with these luminescent stickers."
+    },
+    {
+        "id": 5,
+        "slug": "mandala-adult-coloring-book",
+        "name": "Mandala Adult Coloring Book",
+        "price": "14.99",
+        "category": "books",
+        "description": "Relax and inspire your creative side with beautifully detailed mandalas."
+    }
+]

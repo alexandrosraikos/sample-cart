@@ -1,33 +1,16 @@
-import { useState } from 'preact/hooks'
-import preactLogo from './assets/preact.svg'
-import viteLogo from '/vite.svg'
 import './app.css'
+import Cart from './components/Cart/Cart'
+import Showcase from './components/Showcase/Showcase'
 
 export function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} class="logo" alt="Vite logo" />
-        </a>
-        <a href="https://preactjs.com" target="_blank">
-          <img src={preactLogo} class="logo preact" alt="Preact logo" />
-        </a>
+    <main>
+      <h1 className='title'>Sample Cart</h1>
+      <p className='paragraph'>Putting the "art" in "cart".</p>
+      <div className='flex flex-col md:flex-row gap-6'>
+        <Showcase className="flex-1 md:flex-[70%]" />
+        <Cart className="flex-1 md:flex-[30%]" />
       </div>
-      <h1>Vite + Preact</h1>
-      <div class="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/app.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p class="read-the-docs">
-        Click on the Vite and Preact logos to learn more
-      </p>
-    </>
+    </main>
   )
 }
